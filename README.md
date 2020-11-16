@@ -8,3 +8,4 @@ The examples provided read the serial data from an Arduino based counter, that s
 
 Both devices send out complete ASCII strings, but the bb_serial_read() function captures data (in binary form) about every millisecond in a cyclic buffer. The library provides whatever is in that buffer when the function is called. This low-level function does not capture a whole string, but provides chunks of whatever data was was captured. The provided examples capture the chuncks of data and provide whole strings for further processing.
 
+The project these examples are used in can be found here : https://github.com/paulvee/GPSDO-Monitoring
